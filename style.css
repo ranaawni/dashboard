@@ -1,0 +1,85 @@
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+body{
+    padding: 0 0 0 160px;
+    /* height: 600px; */
+    background-color: #4d5c6b;
+    position: relative;
+
+}
+  .header {
+    background: rgb(232, 237, 238);
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    position: fixed;
+    width:100% ;
+
+  }
+ 
+  
+  #sideBar {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #4d5c6b;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    margin-right: 50px;
+    /* border-radius: 0px -50px 30px 5px; */
+
+
+  }
+  
+  
+  #sideBar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+ 
+  
+  /* Style page content */
+  .header p{
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
+  .header .form-control {
+      border-radius: 10px 10px 10px 10px;
+  }
+
+  .fa-search {
+    
+  }
+
+
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  button,
+input {
+  border: none;
+}
+
+i {
+  display: block;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}
